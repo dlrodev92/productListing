@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div>
-      <div className="sticky top-0 right-0 z-index-50 flex flex-col items-center">
+      <div className="absolute right-0 m-4 z-10 flex items-center">
         <button onClick={openModal} className="font-bold text-xl bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded-full">?</button>
         <Modal isOpen={isModalOpen} onClose={closeModal} />
       </div>
