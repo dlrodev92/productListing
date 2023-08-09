@@ -4,14 +4,17 @@ export default function Modal({isOpen, onClose}) {
       <div className="bg-white p-6 rounded-lg shadow-md z-10 max-w-screen-lg">
         <h2 className="text-lg font-semibold mb-4">Welcome to EcoBytes!</h2>
         <h3>Here is a guide for how to use our Eco features:</h3>
-        <p className="text-gray-700">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-        optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-        obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-        nihil, eveniet aliquid culpa officia aut!
-        </p>
+        <div className="text-gray-700">
+          <p className="my-3">Each product has an <strong>'Eco Score'</strong>, which reflects how highly we rank it's eco-friendly attributes.</p>
+          <p className="my-3">Our ranking attributes include:</p>
+          <ul>
+            <li>Example</li>
+            <li>Example</li>
+            <li>Example</li>
+            <li>Example</li>
+            <li>Example</li>
+          </ul>
+        </div>
         <button onClick={onClose} className="mt-4 bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded-md">Close</button>
       </div>
     </div>
